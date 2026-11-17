@@ -1,0 +1,1820 @@
+{
+  "snapshot_date": "2026-11-18",
+  "files": [
+    {
+      "path": "manual-rtos/.cproject",
+      "source": "20261112_UART_Mutex_DC_Motor/.cproject",
+      "sha256": "2b7e4c779dcd5d9c24c9e2216b456064a90e4e3a4b0332155d74fb9d212f2f42"
+    },
+    {
+      "path": "manual-rtos/.mxproject",
+      "source": "20261112_UART_Mutex_DC_Motor/.mxproject",
+      "sha256": "383fa39d928c3e897d9c96b88347a9aa1abe212d9017ba2b06ed02fffc9d24a8"
+    },
+    {
+      "path": "manual-rtos/.project",
+      "source": "20261112_UART_Mutex_DC_Motor/.project",
+      "sha256": "f038eb38d5c40d9818505dd1994d8f49b51eb428eac213ea910d31b2773674bd"
+    },
+    {
+      "path": "manual-rtos/20261112_UART_Mutex_DC_Motor.ioc",
+      "source": "20261112_UART_Mutex_DC_Motor/20261112_UART_Mutex_DC_Motor.ioc",
+      "sha256": "68646c4a29e8d1938a69c8e0e302c0b8da3f09bcdd9db834fe0a582aaf3c31fb"
+    },
+    {
+      "path": "manual-rtos/Core/Inc/FreeRTOSConfig.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Inc/FreeRTOSConfig.h",
+      "sha256": "3afb559300e365321f51b44d37f068d1c8c8338fa0c705a818518720cf5a9914"
+    },
+    {
+      "path": "manual-rtos/Core/Inc/gpio.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Inc/gpio.h",
+      "sha256": "e2d62f964a0b7f238384ed6a20a181d09df9647240a268dc547acf5b35099f74"
+    },
+    {
+      "path": "manual-rtos/Core/Inc/i2c.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Inc/i2c.h",
+      "sha256": "61d9641a97b80c573f09879c391c8de322408051b8dca6ddd4af752653b0aef8"
+    },
+    {
+      "path": "manual-rtos/Core/Inc/main.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Inc/main.h",
+      "sha256": "b8783777ef778e6a55dafa3b9627162d3d88f58d42103f6d7db641b06bed96e3"
+    },
+    {
+      "path": "manual-rtos/Core/Inc/stm32f4xx_hal_conf.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Inc/stm32f4xx_hal_conf.h",
+      "sha256": "b2542781ebcbe24275f2927277c53d6fc1072e45e0e76f26a7fa020a40233a5f"
+    },
+    {
+      "path": "manual-rtos/Core/Inc/stm32f4xx_it.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Inc/stm32f4xx_it.h",
+      "sha256": "0de5d0e1dddd6fdccc8a05c24c9ae6c7e9a01753d97cf1fd1927f5161b90683c"
+    },
+    {
+      "path": "manual-rtos/Core/Inc/tim.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Inc/tim.h",
+      "sha256": "488ce7c26647ffd06bedd680174bc9caa4d2bb7be96a282ed385b0f6984aba17"
+    },
+    {
+      "path": "manual-rtos/Core/Inc/usart.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Inc/usart.h",
+      "sha256": "c1eb91a5fdbea2d5e25f058bccabfa67dbb58940e0642edaa96c8efb460a02e3"
+    },
+    {
+      "path": "manual-rtos/Core/Src/ap/message.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/ap/message.c",
+      "sha256": "ac2600a9ec38c3ecee59552baed50b51e010e53d47da3a94619dddb8e7949964"
+    },
+    {
+      "path": "manual-rtos/Core/Src/ap/message.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/ap/message.h",
+      "sha256": "8b8dfd8345de80b5435b5195ed850beb6432b4dd0db9d898f39e846ec5915269"
+    },
+    {
+      "path": "manual-rtos/Core/Src/ap/task/button_task/button_task.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/ap/task/button_task/button_task.c",
+      "sha256": "96fbea0ea44063566eaa0dd5aff1b063a8c0c887dcda65f4f8e0a0e74b269c6c"
+    },
+    {
+      "path": "manual-rtos/Core/Src/ap/task/button_task/button_task.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/ap/task/button_task/button_task.h",
+      "sha256": "5d89341eb28008c35d1343681e64e5b9f7f006cd66c622b4548c11ab264bc416"
+    },
+    {
+      "path": "manual-rtos/Core/Src/ap/task/comm_task/comm_task.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/ap/task/comm_task/comm_task.c",
+      "sha256": "c2720f3cdf4b86fa24b75576de4738e47779bd827938b0471358e997fa89239c"
+    },
+    {
+      "path": "manual-rtos/Core/Src/ap/task/comm_task/comm_task.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/ap/task/comm_task/comm_task.h",
+      "sha256": "9d1dc0b6e00c24b8440bc8dda276937b436d23c3bbe033415e84ca5194a153e3"
+    },
+    {
+      "path": "manual-rtos/Core/Src/ap/task/motor_control_task/motor_control_task.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/ap/task/motor_control_task/motor_control_task.c",
+      "sha256": "5476dde0117ccbb887cb30f8d033310f5901cd275c8007940bd94bb4f2507672"
+    },
+    {
+      "path": "manual-rtos/Core/Src/ap/task/motor_control_task/motor_control_task.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/ap/task/motor_control_task/motor_control_task.h",
+      "sha256": "f2eed568c86e1a3a570e776d2532982eb2515325bda417d817b0702a10559997"
+    },
+    {
+      "path": "manual-rtos/Core/Src/driver/button/button.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/driver/button/button.c",
+      "sha256": "5d875b70c0d0be8a5c429f159972e01b4ff7ab70a99948004afd170201e15848"
+    },
+    {
+      "path": "manual-rtos/Core/Src/driver/button/button.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/driver/button/button.h",
+      "sha256": "7cafe76de56c3d2a5769527ab8775cec4e6f9a0cf8e3ab0abdbe8db08c29780f"
+    },
+    {
+      "path": "manual-rtos/Core/Src/driver/DC_Motor/dcmotor.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/driver/DC_Motor/dcmotor.c",
+      "sha256": "d900f8955e655efa230f130ba9a30dc27175161bffdafc44ac61909b8ed12590"
+    },
+    {
+      "path": "manual-rtos/Core/Src/driver/DC_Motor/dcmotor.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/driver/DC_Motor/dcmotor.h",
+      "sha256": "09e2fcfde3be4e4b83fc18667a0b09edc969b4cf9db64a287c5010206cca1413"
+    },
+    {
+      "path": "manual-rtos/Core/Src/driver/lcd/lcd.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/driver/lcd/lcd.c",
+      "sha256": "73d5eac1ee0649bec4f05841e7b1543b3fd231e4c9e9d2d82265e6dfca24deea"
+    },
+    {
+      "path": "manual-rtos/Core/Src/driver/lcd/lcd.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/driver/lcd/lcd.h",
+      "sha256": "714826d76c7576f9d5eea033530b83383956a0818986a650c58bcc74bcae9fd9"
+    },
+    {
+      "path": "manual-rtos/Core/Src/freertos.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/freertos.c",
+      "sha256": "8d211be3d1651b5f797d32d3ea383a414a0f6150be215905445835727893e7b3"
+    },
+    {
+      "path": "manual-rtos/Core/Src/gpio.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/gpio.c",
+      "sha256": "6e7a9b859047b01a9c5785fbed8afc547d5df323805346a57d71b61a114290a0"
+    },
+    {
+      "path": "manual-rtos/Core/Src/i2c.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/i2c.c",
+      "sha256": "d616e686a119d6a1cfad6eee39d81b9245743036d643477d1fb9a3a2b588a157"
+    },
+    {
+      "path": "manual-rtos/Core/Src/main.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/main.c",
+      "sha256": "c872363168e7cf3def1a08d94cb4ca80a52f9774421ccf669c36e9d21ebfb641"
+    },
+    {
+      "path": "manual-rtos/Core/Src/stm32f4xx_hal_msp.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/stm32f4xx_hal_msp.c",
+      "sha256": "72185148391041d5c2cc7e25afdba43f678b36ffa48a5a8b6703daaed4e70cb2"
+    },
+    {
+      "path": "manual-rtos/Core/Src/stm32f4xx_hal_timebase_tim.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/stm32f4xx_hal_timebase_tim.c",
+      "sha256": "a0838dcec0862ad7fd8617fadf53564aec7023a54add3426fce876f1d8759305"
+    },
+    {
+      "path": "manual-rtos/Core/Src/stm32f4xx_it.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/stm32f4xx_it.c",
+      "sha256": "5b544f3b5f2786d255786d7388ac321a07525a6de7222e5c653ca53622cf7499"
+    },
+    {
+      "path": "manual-rtos/Core/Src/syscalls.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/syscalls.c",
+      "sha256": "76e29f34f503aab966b6df671b85b985063d940577cb9d5465b36be73b5f840b"
+    },
+    {
+      "path": "manual-rtos/Core/Src/sysmem.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/sysmem.c",
+      "sha256": "c6ce6e1fd2110bc3f6fb36364c01e0f3eaf8c7efcbc290c78c9105db9bbb0e5c"
+    },
+    {
+      "path": "manual-rtos/Core/Src/system_stm32f4xx.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/system_stm32f4xx.c",
+      "sha256": "077c7d9b06d04e9fe3d60ea68f9e228edf98b2f801f80e5349a3ba1465197b00"
+    },
+    {
+      "path": "manual-rtos/Core/Src/tim.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/tim.c",
+      "sha256": "734ac590ff9b95361e67f78033640687cfc43844b927a8215b80c12f1831a536"
+    },
+    {
+      "path": "manual-rtos/Core/Src/usart.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Src/usart.c",
+      "sha256": "7a90d5ad90b5d2797bb83a3fc25a2fa1b740b770796c42ddc00b9658f209b54e"
+    },
+    {
+      "path": "manual-rtos/Core/Startup/startup_stm32f411retx.s",
+      "source": "20261112_UART_Mutex_DC_Motor/Core/Startup/startup_stm32f411retx.s",
+      "sha256": "56ddcedb809afac016f60eaa61d025751eed31f3fd8e2252fb7f60cb137349e4"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h",
+      "sha256": "a004ea331bba95df611fbe52bf40cefd75e843f244aa8f9c962e3541f0c5f4f1"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h",
+      "sha256": "fbce462cc1c35dca569d04b95042862ae00590c26286c3aafc8cd4a76fdff6b1"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h",
+      "sha256": "6ba46a957d0c32196d03304b981db5be8c3969d41953a53a364ca861085277d1"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt",
+      "sha256": "d65cad1327eb8dae95d0aeab71fb22505f99a3d7cd1ce2530d7d40c52aece002"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/cachel1_armv7.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/cachel1_armv7.h",
+      "sha256": "6cdb5b324f2fd1bb5b2f47298ba6e6777e735d7cad3bb8d942cd36e2c6e65328"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/cmsis_armcc.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/cmsis_armcc.h",
+      "sha256": "d074534d7106cec83474b3b0a897bd2553e1a8895ecbd54f4f4fb25928066eee"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/cmsis_armclang.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/cmsis_armclang.h",
+      "sha256": "11b39b96ddc1125124762b3423a77b90dd40ea5b4582a3513830245046b24311"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/cmsis_armclang_ltm.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/cmsis_armclang_ltm.h",
+      "sha256": "8621969ea669a1b230ff2125a760ef66d575c48cb45e9e457f768909abcbda46"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/cmsis_compiler.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/cmsis_compiler.h",
+      "sha256": "869640702d811c4c63abb52206715c891a93fd03be954df5ad40d378355af3d6"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/cmsis_gcc.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/cmsis_gcc.h",
+      "sha256": "3d4e265d0aa42f888385ccf073666e6ebb5ec9f834760b9da27c474e177f708d"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/cmsis_iccarm.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/cmsis_iccarm.h",
+      "sha256": "f28119adbc81fb0e3c957c9aebe8fb423ad93634e76ead3caa2b0818d2e123ae"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/cmsis_version.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/cmsis_version.h",
+      "sha256": "8cda7ac3ff6f0eb5e83c4fe613dd195151b24da54167f5c3c007e599a03f1edc"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/core_armv81mml.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/core_armv81mml.h",
+      "sha256": "255663bc446feb00e341d682f7f78ec6f301a5c1802d856bcdd18d7552393dff"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/core_armv8mbl.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/core_armv8mbl.h",
+      "sha256": "b5a662723f65a9fe1fbde82b83681daec28aadb78c2dc95e531d6fb6bb396dde"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/core_armv8mml.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/core_armv8mml.h",
+      "sha256": "17021c385f47945f2376fbb30f2f2e3fc28bd0f3d97eb857d212c192c54ab3fc"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/core_cm0.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/core_cm0.h",
+      "sha256": "5cc53e723ee0e97455233f8dee892940209e2fff66071d66d74bab56c528b199"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/core_cm0plus.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/core_cm0plus.h",
+      "sha256": "a19e24c136145b4c72630d0ab7c83a7aef010f3ba165e34c56a05057a2d9fed5"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/core_cm1.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/core_cm1.h",
+      "sha256": "c243c4afb291068fe7078d2911b2f0001e78a4d5466c26728611b06147d65c2b"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/core_cm23.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/core_cm23.h",
+      "sha256": "b6fb9bb5faedffe8eec563550e21dc9097c9f64956258b2af51e6d4d88ca4411"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/core_cm3.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/core_cm3.h",
+      "sha256": "0fb7749ea828cad4fded65bbeefc3fd0cff1effbb7c784f7086526fd69e26719"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/core_cm33.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/core_cm33.h",
+      "sha256": "d5c5fc559cbbbc1e495af4ac2ea81959bcadb35aa69ecb1c20d183c3ed9cfeae"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/core_cm35p.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/core_cm35p.h",
+      "sha256": "e52a069ffdacdbf000ffcc6f1766f0dcdfef1bb60f5e8ca0602bcbcfd2b69fa1"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/core_cm4.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/core_cm4.h",
+      "sha256": "d59a9e3ed4cf43a3c74a2e48f344d41be2b6363ef9394ea2c551052fe553a6af"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/core_cm55.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/core_cm55.h",
+      "sha256": "bf661f2b792ad123795207bafd405d6b250690c65a28232a92485d6fdbb76d98"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/core_cm7.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/core_cm7.h",
+      "sha256": "a361f5ff7b053831cdbbc068eae9609cd6681414c9a95c26df582d686a2378b8"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/core_cm85.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/core_cm85.h",
+      "sha256": "062019526b524285bee161459f65ce7c9bf827c2ceabc4101fd150f6d80b37f5"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/core_sc000.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/core_sc000.h",
+      "sha256": "4ec2d6ff893658c6bb7b1c56e6256087f3a2ed1e662c226e4ba11cfaad28d05d"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/core_sc300.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/core_sc300.h",
+      "sha256": "4ca0e6f1fec869e4942c70028ce2f3c9ae00a65a69c35f467840af3fc3d03ae5"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/core_starmc1.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/core_starmc1.h",
+      "sha256": "47978dc5bfb51c5edd09178d99c9b9163d500d48181985da4ead5a3c20d9a85b"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/mpu_armv7.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/mpu_armv7.h",
+      "sha256": "de1b5eb9ed566527b66dc06f4ecb6a43ab6800f7dac47e87c9cb42984dca41bb"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/mpu_armv8.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/mpu_armv8.h",
+      "sha256": "467a5ce9d65d9b37fc32e01001ed184500d56576f303713d27b76e68dd67911c"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/pac_armv81.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/pac_armv81.h",
+      "sha256": "f3497af055e95873809e4a79420e2b08915582466cef2eb4235d8e03faa7c3ab"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/pmu_armv8.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/pmu_armv8.h",
+      "sha256": "ef9aa2f1c5b03bea488d4b74d33db14acdc6c87e500273d68d75a6d3902a4f62"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/Include/tz_context.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/Include/tz_context.h",
+      "sha256": "7fcc21fc190f6fd970390e9caaa6a86d72fd10f9edf4efab36f12aecf1a8baa0"
+    },
+    {
+      "path": "manual-rtos/Drivers/CMSIS/LICENSE.txt",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/CMSIS/LICENSE.txt",
+      "sha256": "e03ba41d7fab20700769fe4118bab50d800cb74f990353a05d2f5fff1c228363"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h",
+      "sha256": "c006468890df1e5fd6ab9f378af2f5648607164a80a2851a832e1a098e5cfdff"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h",
+      "sha256": "78f46c52267d3bb7a68349fbf02ecd9f6e2e375e3feb80ac0829a870bddcd514"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h",
+      "sha256": "9a63853adf125773901e75451eac8431680a4a31f9e0bf53f1f2b6a878215255"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h",
+      "sha256": "c6f30eaa09b8a72e7f503c757f312745ec10c317d37d568500dccab9587c1a6b"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h",
+      "sha256": "4dc4d29c8930a5ec06b6f4b13480bed13c238d2674b3afac47e6f71b2ae25b98"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h",
+      "sha256": "8aa0a347b502d924077675ad9bb446cf40b3a6dab47cf8a6b5a9f9e21dbfcf20"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h",
+      "sha256": "e786fc8c276267ec0650ab0fc5853b2ca63697131947321a4e7e7175554c3b04"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h",
+      "sha256": "b0d68b1b3ef9172687986cbaab80e0bad907e08993ef1766eb5599035131a173"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h",
+      "sha256": "2b6e01cf00f37574d95f15e25496b814d85b88796f58a47f9f2bef260b6c4fde"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h",
+      "sha256": "b37ac28b36e597feca914f63e8046967c092d6b372e1a70ca9ab9fbf37a3bae5"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h",
+      "sha256": "5829d91f2e060d30f5798dc71e4fef5d7ffa7d99da21e751ee03d527d664307f"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h",
+      "sha256": "5963c4ea366cfd6de3a91792a382de6327d86542a6278592cc2b79e594c8ad91"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h",
+      "sha256": "80d2996918dc151f7d0c17a025f13571cb60916ac560996471872dc3dfa58342"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h",
+      "sha256": "d46fb65afdc6181b0cea8f80db433d102099734183b1dbcffee4c0682f4ee112"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h",
+      "sha256": "2a8a5905165b97971b44b5f0768e55ed30f28659d0bdf40dfc3e0eb9b1a34e1e"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h",
+      "sha256": "3f0cac843abd6c0ae3ef9a4edc6353b6f96052f8d297bf8a474f23bdd9a1576b"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h",
+      "sha256": "5d271e215214b0d83307e4ca3c85a90c3b36d101cd75e26b6f4b3b98a37c59ee"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h",
+      "sha256": "35780221cccec55b0954cd47725c415304eec98a80626589ef15737e650684a9"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h",
+      "sha256": "97477ceb9c7477137b2cd629bcdf3e76f020b4d068b4bda918eb209c776f5311"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h",
+      "sha256": "caba7038fd35f65d7369e2e2262ccad59b59e7f66729a322966e2824fca902b9"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h",
+      "sha256": "5d79bf1566c0767f1985fcd106412d6cd4bdecad978aa8a5b2995320191c8040"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h",
+      "sha256": "dd633fe4127649dd610dd9d9841599ed554a145fdde20ae4ea085cfd5210c9e5"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h",
+      "sha256": "b7c6d00b91d1df94ee68104735ad09e1e19c5dc5d526f1b74025c831353a9815"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h",
+      "sha256": "94f66c2401fc2753a1832fb1dd96f2cfa7ba665879ba4d6b85de5cf8e444a6a3"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h",
+      "sha256": "96329e1fc07ea1d7db3a7970af4d97a5172e29cf9be5e7a45b7a011c960a33b9"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h",
+      "sha256": "b874a353f6075b18a7b352f8eac77497c32eff162ec0005be4c75346fdff3908"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_i2c.h",
+      "sha256": "3e2af1eab1a3e6f4c59f24b3c880b8de8b5deb03086bad482417230551c97a34"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h",
+      "sha256": "187dec9842b95cf7f2a448bbb7a2c1b98ac8c8d0ea69d68cbcd5b05c4eaeb6b9"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h",
+      "sha256": "e7f35b31956cc376aacf5406aceefd897ae8bc9fc9bbf164411ed30627d2c0ef"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h",
+      "sha256": "fef5ea5a5bfb7f2c4059fb2c1262d884f0f25b379a3a982ddefd81c50ed5cd89"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h",
+      "sha256": "ecd43402eb66a91d63734ee50f7eed67ebafd2b354a3069df0e6a171b90f41cd"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h",
+      "sha256": "7c20ff842f7840d8d5b177d1283a5cff886e3de9cf0296e188ee196e3259506d"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h",
+      "sha256": "650207da540d4d262d0a82c23b0d970c8a83bb1f36a4b2fd65388331475154df"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt",
+      "sha256": "bdc7b0f98db4846279336431024c49a01d578a2ea1d19ec68797bbe33e718d2d"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+      "sha256": "1456812822a1bf149e34f0aeb349cf22effd67b1d848129f53b89474ccf8bb9c"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+      "sha256": "18363923c4447c984ddda1ae1d6b3b7cf3ae4ded19933a561874dda3c69e56bc"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+      "sha256": "f3da7dc31942b79a88349c7f7dd38f6b586656b47c6fc78c8283925176368763"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
+      "sha256": "000253cec2e4c9e0678add30a7b01f854b27f4271cd3124f43023b993eec54ea"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
+      "sha256": "1150dcd5b4ef4dd5c7c99af54272b7baf1e89054accf6887ef7526d400c24056"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+      "sha256": "6803e334866857361fbab3a1ad6746f4ad6172fb6e325fcb2bd44cbcae67cff2"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
+      "sha256": "942c5264ade5416b321f5ac78dc8d93656e2fdfb048bee12710aa94a4fc4f06e"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
+      "sha256": "d4fbfc99a7f5298bd59080c6a5847169850ac7af3125986b1a9bcf6f058d1c55"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+      "sha256": "72d8f3cb23a396cdbf9183c5cea2a0c00cfa0336def3736652480c4491f38788"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c",
+      "sha256": "d3686886a87d018a6a5f26c9760fc7a80ad2d520b9e856916a983302fc6a3442"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c",
+      "sha256": "6f0863aaf210e9f446f194c34035b59b7de4ad617743e7e94a0f7a4232c96596"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+      "sha256": "89ea9ba1d4d0d40b21a7094935bfb8ce2a9b90df4d742f5d04a51e1d7bbc8d68"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+      "sha256": "fc8a26ad3a0f8359817c1b08c68af50b9f7905a69c44e4599225eaa53a66e856"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+      "sha256": "13811ad463cc7f065e39a98a2c3af00f878f2de6535407fff1b5a97fd569525c"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+      "sha256": "51c15df04a3bf41d372c6f1988e6298af7990c473ffa0396820168fc6a19d949"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c",
+      "sha256": "5d9f7c06f7a06ac797cde196ed6ccfac67fdc034a3eb2770c2df40008e29490a"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c",
+      "sha256": "b3f85b80eccc5b00f5df119711c5dc8b93f7d297490a951aa600a971d28d6f6e"
+    },
+    {
+      "path": "manual-rtos/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+      "sha256": "94dddd799cf2a02835070558faad3bc04c0b3ce96166e15b2bf7e6575148cb51"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c",
+      "sha256": "4fe9dc4cb26fced50176deaca2da0e867218c02ac3f8713c21b2df25a56f4edf"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h",
+      "sha256": "6a7548650076cf17f0090a7195a786a759fdb87f184babf8cbaffbf992417afc"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/croutine.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/croutine.c",
+      "sha256": "e31cd1c9c280c919a92edc28885e9bebce589d4cfab71cefab832a73683200fb"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c",
+      "sha256": "a72063c3977fad098a87a5430e04e9fc5b892d703e01fbe09ea907f67aacf20e"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/include/atomic.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/include/atomic.h",
+      "sha256": "b74ab6f4aae9a397565adb5f14c9d8e33b9f782a2e35f77535af751413ac68de"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h",
+      "sha256": "8df4c5eec7eb30262f09b7c47fc2eb0534a27721293b0d260a3398846494f9ac"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h",
+      "sha256": "382f8a7a0e00240fb69911dff8d8515248beb9dadfe77c22c4e5544f49cc76eb"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h",
+      "sha256": "3b9cbd64db721c4317544700fff4e42ac68d989f71b7d610b31087bb19175839"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h",
+      "sha256": "b7a81501c3f4ff9537df5c9a5e0231f37638cdc8324965ae10064128fded840f"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/include/list.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/include/list.h",
+      "sha256": "f9b239f168976f7b167e054fa72616826f55ae4d74d76b87c9e70b2df079363f"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h",
+      "sha256": "504a77558f13b66fd1eec5adf4d81e274f0b54c12880424833c24f577be0800a"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h",
+      "sha256": "3fafd21399ef619a55b2f8112750d750685c8ae1cb458363d21ee37a105ac6e7"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h",
+      "sha256": "c1fc47acdb79efb0fb8a0fb8a169ae4423fdc3a6d820b2f81d49e8e077c1ed48"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h",
+      "sha256": "39795c8dded505f24f53646ecd8192251851c74f366d2a5b0aae3fbfa68c191b"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h",
+      "sha256": "399814721d9735e91d74ca07be3974edb20639acb46a6792230ff9f61f67b353"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h",
+      "sha256": "39d58a203f1b67fdb1099293914a2af9722d223586cfc5ff06e230e047919dea"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h",
+      "sha256": "b9b2ff28a0c80fa21443690bb28de64c8b9451cccd57e484de0bcf02fc367575"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h",
+      "sha256": "7d1d30b6c9ae34bebb26b14402f78a59a35ae826f460a1ad28534c9590b32151"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h",
+      "sha256": "c27d1653d2f7f34292387cab8a8b074426cc1ef73aeaa27663d56ba634f7f8ab"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h",
+      "sha256": "0607fcca1927ba782a29a3814481d69db3569e6e53a68ebf2c01f5598a3af2b8"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/include/task.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/include/task.h",
+      "sha256": "830990f7b17b8e0ce3bdb0a7475d2cdc7d659eafff16b88a855c84c06a7a2a3e"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h",
+      "sha256": "7fa62f648014533ce5bd8da1775ddd814cbf208f9af7c748a40bb8b50a8e8912"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/LICENSE",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/LICENSE",
+      "sha256": "49678287e48228d68af25ed82841491552b0646e31a8080165758fa72b67105a"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/list.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/list.c",
+      "sha256": "e735517f308fad5dd77d03b6858c16bdbc937bb9d0754735849fc7799ebe2b59"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c",
+      "sha256": "89f24a509ec85bf502724334c2607eeb7a432e1f26afbc9b7291254b8f7971dc"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h",
+      "sha256": "356ce2ec084883d8fc41d380910f828aee559f140e877629974752ea26a89792"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c",
+      "sha256": "c697b88e48e9906a19cabef187e5797a5a45009144f9e473262752c86a5d2c50"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/queue.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/queue.c",
+      "sha256": "06a153c1ce111213af32dfc8797bd2e5c7819e264dfa338b4049f058dc1edb11"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c",
+      "sha256": "4376714fecad0f72dc4c8b45236591a7e0ffe24dd018382f56e8b0dfc2230b28"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/tasks.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/tasks.c",
+      "sha256": "8cb1eabe18f130b2b8980e880847f773fb12a4071c763d26c51624223b32a3a4"
+    },
+    {
+      "path": "manual-rtos/Middlewares/Third_Party/FreeRTOS/Source/timers.c",
+      "source": "20261112_UART_Mutex_DC_Motor/Middlewares/Third_Party/FreeRTOS/Source/timers.c",
+      "sha256": "0d16405e621a2c4b003b5f0324b9713cd4865364133df6f742f482a6b2dbc773"
+    },
+    {
+      "path": "manual-rtos/STM32F411RETX_FLASH.ld",
+      "source": "20261112_UART_Mutex_DC_Motor/STM32F411RETX_FLASH.ld",
+      "sha256": "71b074e7b4e181c732507409600b78a76fcd707bf6c02ce14ba4d082b0eafad4"
+    },
+    {
+      "path": "manual-rtos/STM32F411RETX_RAM.ld",
+      "source": "20261112_UART_Mutex_DC_Motor/STM32F411RETX_RAM.ld",
+      "sha256": "6191d7326968d4cca36444ee51ec3b91764fa63f10a257e368d61d12b6e972f3"
+    },
+    {
+      "path": "autonomous/.cproject",
+      "source": "20261116_SR04_Autonomous_Car/.cproject",
+      "sha256": "10dc6fdc5ef007198394478a5ca48fc4169da402326ca1ff4f65a796a0b55b7b"
+    },
+    {
+      "path": "autonomous/.mxproject",
+      "source": "20261116_SR04_Autonomous_Car/.mxproject",
+      "sha256": "72aa76d9a704eb083214f38eee68880e105638e6c0de4022db0184ac23884e21"
+    },
+    {
+      "path": "autonomous/.project",
+      "source": "20261116_SR04_Autonomous_Car/.project",
+      "sha256": "cacdba35fafb748cadaed9e3ddde5706db9c7257bedca9af64559f0ae954d16e"
+    },
+    {
+      "path": "autonomous/20261116_SR04_Autonomous_Car.ioc",
+      "source": "20261116_SR04_Autonomous_Car/20261116_SR04_Autonomous_Car.ioc",
+      "sha256": "c408ce814fcc16dbdee2accdf3038446d3b6de8f03a1015b32a31c5663bbe9a7"
+    },
+    {
+      "path": "autonomous/Core/Inc/main.h",
+      "source": "20261116_SR04_Autonomous_Car/Core/Inc/main.h",
+      "sha256": "954578911f70bc90af9b2d0e76f445eceba509015641bfe9ee9698f3f3840970"
+    },
+    {
+      "path": "autonomous/Core/Inc/stm32f4xx_hal_conf.h",
+      "source": "20261116_SR04_Autonomous_Car/Core/Inc/stm32f4xx_hal_conf.h",
+      "sha256": "dd1a9f76b34cedf7fece94ebb0d27d975ac3973028b1f2bf0fd6689a48fdae77"
+    },
+    {
+      "path": "autonomous/Core/Inc/stm32f4xx_it.h",
+      "source": "20261116_SR04_Autonomous_Car/Core/Inc/stm32f4xx_it.h",
+      "sha256": "68ee033eb9538e8f8b1d2cc7cb74921e8c917ea4313f9cac6b03c1007d47b79d"
+    },
+    {
+      "path": "autonomous/Core/Src/driver/button/button.c",
+      "source": "20261116_SR04_Autonomous_Car/Core/Src/driver/button/button.c",
+      "sha256": "5d875b70c0d0be8a5c429f159972e01b4ff7ab70a99948004afd170201e15848"
+    },
+    {
+      "path": "autonomous/Core/Src/driver/button/button.h",
+      "source": "20261116_SR04_Autonomous_Car/Core/Src/driver/button/button.h",
+      "sha256": "7cafe76de56c3d2a5769527ab8775cec4e6f9a0cf8e3ab0abdbe8db08c29780f"
+    },
+    {
+      "path": "autonomous/Core/Src/driver/DC_Motor/dcmotor.c",
+      "source": "20261116_SR04_Autonomous_Car/Core/Src/driver/DC_Motor/dcmotor.c",
+      "sha256": "e96eed0219447b0fcad069227a4473c35920731bbe8b4ef0e78f3bf717fa7c79"
+    },
+    {
+      "path": "autonomous/Core/Src/driver/DC_Motor/dcmotor.h",
+      "source": "20261116_SR04_Autonomous_Car/Core/Src/driver/DC_Motor/dcmotor.h",
+      "sha256": "0236537694f5ae4e452a58b111b281e403c02e5d4556aca3f1532b347456e054"
+    },
+    {
+      "path": "autonomous/Core/Src/main.c",
+      "source": "20261116_SR04_Autonomous_Car/Core/Src/main.c",
+      "sha256": "2087d32e2843574cec31b24c391feee9a66a6575f4c35d226808d604f274de0f"
+    },
+    {
+      "path": "autonomous/Core/Src/stm32f4xx_hal_msp.c",
+      "source": "20261116_SR04_Autonomous_Car/Core/Src/stm32f4xx_hal_msp.c",
+      "sha256": "be92b4cba89314ef8761f362e74c4d102adc149ad7c23f0f78bbad15100bb519"
+    },
+    {
+      "path": "autonomous/Core/Src/stm32f4xx_hal_timebase_tim.c",
+      "source": "20261116_SR04_Autonomous_Car/Core/Src/stm32f4xx_hal_timebase_tim.c",
+      "sha256": "a0838dcec0862ad7fd8617fadf53564aec7023a54add3426fce876f1d8759305"
+    },
+    {
+      "path": "autonomous/Core/Src/stm32f4xx_it.c",
+      "source": "20261116_SR04_Autonomous_Car/Core/Src/stm32f4xx_it.c",
+      "sha256": "03d8b2396b3005b9bcbcf7c18b5c67405034555f8a877b79b5e8ac93b133432d"
+    },
+    {
+      "path": "autonomous/Core/Src/syscalls.c",
+      "source": "20261116_SR04_Autonomous_Car/Core/Src/syscalls.c",
+      "sha256": "76e29f34f503aab966b6df671b85b985063d940577cb9d5465b36be73b5f840b"
+    },
+    {
+      "path": "autonomous/Core/Src/sysmem.c",
+      "source": "20261116_SR04_Autonomous_Car/Core/Src/sysmem.c",
+      "sha256": "c6ce6e1fd2110bc3f6fb36364c01e0f3eaf8c7efcbc290c78c9105db9bbb0e5c"
+    },
+    {
+      "path": "autonomous/Core/Src/system_stm32f4xx.c",
+      "source": "20261116_SR04_Autonomous_Car/Core/Src/system_stm32f4xx.c",
+      "sha256": "077c7d9b06d04e9fe3d60ea68f9e228edf98b2f801f80e5349a3ba1465197b00"
+    },
+    {
+      "path": "autonomous/Core/Startup/startup_stm32f411retx.s",
+      "source": "20261116_SR04_Autonomous_Car/Core/Startup/startup_stm32f411retx.s",
+      "sha256": "56ddcedb809afac016f60eaa61d025751eed31f3fd8e2252fb7f60cb137349e4"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h",
+      "sha256": "a004ea331bba95df611fbe52bf40cefd75e843f244aa8f9c962e3541f0c5f4f1"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h",
+      "sha256": "fbce462cc1c35dca569d04b95042862ae00590c26286c3aafc8cd4a76fdff6b1"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h",
+      "sha256": "6ba46a957d0c32196d03304b981db5be8c3969d41953a53a364ca861085277d1"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt",
+      "sha256": "d65cad1327eb8dae95d0aeab71fb22505f99a3d7cd1ce2530d7d40c52aece002"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/cachel1_armv7.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/cachel1_armv7.h",
+      "sha256": "6cdb5b324f2fd1bb5b2f47298ba6e6777e735d7cad3bb8d942cd36e2c6e65328"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/cmsis_armcc.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/cmsis_armcc.h",
+      "sha256": "d074534d7106cec83474b3b0a897bd2553e1a8895ecbd54f4f4fb25928066eee"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/cmsis_armclang.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/cmsis_armclang.h",
+      "sha256": "11b39b96ddc1125124762b3423a77b90dd40ea5b4582a3513830245046b24311"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/cmsis_armclang_ltm.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/cmsis_armclang_ltm.h",
+      "sha256": "8621969ea669a1b230ff2125a760ef66d575c48cb45e9e457f768909abcbda46"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/cmsis_compiler.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/cmsis_compiler.h",
+      "sha256": "869640702d811c4c63abb52206715c891a93fd03be954df5ad40d378355af3d6"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/cmsis_gcc.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/cmsis_gcc.h",
+      "sha256": "3d4e265d0aa42f888385ccf073666e6ebb5ec9f834760b9da27c474e177f708d"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/cmsis_iccarm.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/cmsis_iccarm.h",
+      "sha256": "f28119adbc81fb0e3c957c9aebe8fb423ad93634e76ead3caa2b0818d2e123ae"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/cmsis_version.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/cmsis_version.h",
+      "sha256": "8cda7ac3ff6f0eb5e83c4fe613dd195151b24da54167f5c3c007e599a03f1edc"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/core_armv81mml.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/core_armv81mml.h",
+      "sha256": "255663bc446feb00e341d682f7f78ec6f301a5c1802d856bcdd18d7552393dff"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/core_armv8mbl.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/core_armv8mbl.h",
+      "sha256": "b5a662723f65a9fe1fbde82b83681daec28aadb78c2dc95e531d6fb6bb396dde"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/core_armv8mml.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/core_armv8mml.h",
+      "sha256": "17021c385f47945f2376fbb30f2f2e3fc28bd0f3d97eb857d212c192c54ab3fc"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/core_cm0.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/core_cm0.h",
+      "sha256": "5cc53e723ee0e97455233f8dee892940209e2fff66071d66d74bab56c528b199"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/core_cm0plus.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/core_cm0plus.h",
+      "sha256": "a19e24c136145b4c72630d0ab7c83a7aef010f3ba165e34c56a05057a2d9fed5"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/core_cm1.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/core_cm1.h",
+      "sha256": "c243c4afb291068fe7078d2911b2f0001e78a4d5466c26728611b06147d65c2b"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/core_cm23.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/core_cm23.h",
+      "sha256": "b6fb9bb5faedffe8eec563550e21dc9097c9f64956258b2af51e6d4d88ca4411"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/core_cm3.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/core_cm3.h",
+      "sha256": "0fb7749ea828cad4fded65bbeefc3fd0cff1effbb7c784f7086526fd69e26719"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/core_cm33.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/core_cm33.h",
+      "sha256": "d5c5fc559cbbbc1e495af4ac2ea81959bcadb35aa69ecb1c20d183c3ed9cfeae"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/core_cm35p.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/core_cm35p.h",
+      "sha256": "e52a069ffdacdbf000ffcc6f1766f0dcdfef1bb60f5e8ca0602bcbcfd2b69fa1"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/core_cm4.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/core_cm4.h",
+      "sha256": "d59a9e3ed4cf43a3c74a2e48f344d41be2b6363ef9394ea2c551052fe553a6af"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/core_cm55.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/core_cm55.h",
+      "sha256": "bf661f2b792ad123795207bafd405d6b250690c65a28232a92485d6fdbb76d98"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/core_cm7.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/core_cm7.h",
+      "sha256": "a361f5ff7b053831cdbbc068eae9609cd6681414c9a95c26df582d686a2378b8"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/core_cm85.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/core_cm85.h",
+      "sha256": "062019526b524285bee161459f65ce7c9bf827c2ceabc4101fd150f6d80b37f5"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/core_sc000.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/core_sc000.h",
+      "sha256": "4ec2d6ff893658c6bb7b1c56e6256087f3a2ed1e662c226e4ba11cfaad28d05d"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/core_sc300.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/core_sc300.h",
+      "sha256": "4ca0e6f1fec869e4942c70028ce2f3c9ae00a65a69c35f467840af3fc3d03ae5"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/core_starmc1.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/core_starmc1.h",
+      "sha256": "47978dc5bfb51c5edd09178d99c9b9163d500d48181985da4ead5a3c20d9a85b"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/mpu_armv7.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/mpu_armv7.h",
+      "sha256": "de1b5eb9ed566527b66dc06f4ecb6a43ab6800f7dac47e87c9cb42984dca41bb"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/mpu_armv8.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/mpu_armv8.h",
+      "sha256": "467a5ce9d65d9b37fc32e01001ed184500d56576f303713d27b76e68dd67911c"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/pac_armv81.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/pac_armv81.h",
+      "sha256": "f3497af055e95873809e4a79420e2b08915582466cef2eb4235d8e03faa7c3ab"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/pmu_armv8.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/pmu_armv8.h",
+      "sha256": "ef9aa2f1c5b03bea488d4b74d33db14acdc6c87e500273d68d75a6d3902a4f62"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/Include/tz_context.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/Include/tz_context.h",
+      "sha256": "7fcc21fc190f6fd970390e9caaa6a86d72fd10f9edf4efab36f12aecf1a8baa0"
+    },
+    {
+      "path": "autonomous/Drivers/CMSIS/LICENSE.txt",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/CMSIS/LICENSE.txt",
+      "sha256": "e03ba41d7fab20700769fe4118bab50d800cb74f990353a05d2f5fff1c228363"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h",
+      "sha256": "c006468890df1e5fd6ab9f378af2f5648607164a80a2851a832e1a098e5cfdff"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h",
+      "sha256": "78f46c52267d3bb7a68349fbf02ecd9f6e2e375e3feb80ac0829a870bddcd514"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h",
+      "sha256": "9a63853adf125773901e75451eac8431680a4a31f9e0bf53f1f2b6a878215255"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h",
+      "sha256": "c6f30eaa09b8a72e7f503c757f312745ec10c317d37d568500dccab9587c1a6b"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h",
+      "sha256": "4dc4d29c8930a5ec06b6f4b13480bed13c238d2674b3afac47e6f71b2ae25b98"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h",
+      "sha256": "8aa0a347b502d924077675ad9bb446cf40b3a6dab47cf8a6b5a9f9e21dbfcf20"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h",
+      "sha256": "e786fc8c276267ec0650ab0fc5853b2ca63697131947321a4e7e7175554c3b04"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h",
+      "sha256": "b0d68b1b3ef9172687986cbaab80e0bad907e08993ef1766eb5599035131a173"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h",
+      "sha256": "2b6e01cf00f37574d95f15e25496b814d85b88796f58a47f9f2bef260b6c4fde"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h",
+      "sha256": "b37ac28b36e597feca914f63e8046967c092d6b372e1a70ca9ab9fbf37a3bae5"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h",
+      "sha256": "5829d91f2e060d30f5798dc71e4fef5d7ffa7d99da21e751ee03d527d664307f"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h",
+      "sha256": "5963c4ea366cfd6de3a91792a382de6327d86542a6278592cc2b79e594c8ad91"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h",
+      "sha256": "2a8a5905165b97971b44b5f0768e55ed30f28659d0bdf40dfc3e0eb9b1a34e1e"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h",
+      "sha256": "3f0cac843abd6c0ae3ef9a4edc6353b6f96052f8d297bf8a474f23bdd9a1576b"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h",
+      "sha256": "5d271e215214b0d83307e4ca3c85a90c3b36d101cd75e26b6f4b3b98a37c59ee"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h",
+      "sha256": "35780221cccec55b0954cd47725c415304eec98a80626589ef15737e650684a9"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h",
+      "sha256": "97477ceb9c7477137b2cd629bcdf3e76f020b4d068b4bda918eb209c776f5311"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h",
+      "sha256": "caba7038fd35f65d7369e2e2262ccad59b59e7f66729a322966e2824fca902b9"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h",
+      "sha256": "dd633fe4127649dd610dd9d9841599ed554a145fdde20ae4ea085cfd5210c9e5"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h",
+      "sha256": "b7c6d00b91d1df94ee68104735ad09e1e19c5dc5d526f1b74025c831353a9815"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h",
+      "sha256": "94f66c2401fc2753a1832fb1dd96f2cfa7ba665879ba4d6b85de5cf8e444a6a3"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h",
+      "sha256": "96329e1fc07ea1d7db3a7970af4d97a5172e29cf9be5e7a45b7a011c960a33b9"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h",
+      "sha256": "b874a353f6075b18a7b352f8eac77497c32eff162ec0005be4c75346fdff3908"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h",
+      "sha256": "187dec9842b95cf7f2a448bbb7a2c1b98ac8c8d0ea69d68cbcd5b05c4eaeb6b9"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h",
+      "sha256": "e7f35b31956cc376aacf5406aceefd897ae8bc9fc9bbf164411ed30627d2c0ef"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h",
+      "sha256": "fef5ea5a5bfb7f2c4059fb2c1262d884f0f25b379a3a982ddefd81c50ed5cd89"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h",
+      "sha256": "ecd43402eb66a91d63734ee50f7eed67ebafd2b354a3069df0e6a171b90f41cd"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h",
+      "sha256": "650207da540d4d262d0a82c23b0d970c8a83bb1f36a4b2fd65388331475154df"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt",
+      "sha256": "bdc7b0f98db4846279336431024c49a01d578a2ea1d19ec68797bbe33e718d2d"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+      "sha256": "1456812822a1bf149e34f0aeb349cf22effd67b1d848129f53b89474ccf8bb9c"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+      "sha256": "18363923c4447c984ddda1ae1d6b3b7cf3ae4ded19933a561874dda3c69e56bc"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+      "sha256": "f3da7dc31942b79a88349c7f7dd38f6b586656b47c6fc78c8283925176368763"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
+      "sha256": "000253cec2e4c9e0678add30a7b01f854b27f4271cd3124f43023b993eec54ea"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
+      "sha256": "1150dcd5b4ef4dd5c7c99af54272b7baf1e89054accf6887ef7526d400c24056"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+      "sha256": "6803e334866857361fbab3a1ad6746f4ad6172fb6e325fcb2bd44cbcae67cff2"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
+      "sha256": "942c5264ade5416b321f5ac78dc8d93656e2fdfb048bee12710aa94a4fc4f06e"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
+      "sha256": "d4fbfc99a7f5298bd59080c6a5847169850ac7af3125986b1a9bcf6f058d1c55"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+      "sha256": "72d8f3cb23a396cdbf9183c5cea2a0c00cfa0336def3736652480c4491f38788"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+      "sha256": "89ea9ba1d4d0d40b21a7094935bfb8ce2a9b90df4d742f5d04a51e1d7bbc8d68"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+      "sha256": "fc8a26ad3a0f8359817c1b08c68af50b9f7905a69c44e4599225eaa53a66e856"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+      "sha256": "13811ad463cc7f065e39a98a2c3af00f878f2de6535407fff1b5a97fd569525c"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+      "sha256": "51c15df04a3bf41d372c6f1988e6298af7990c473ffa0396820168fc6a19d949"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c",
+      "sha256": "5d9f7c06f7a06ac797cde196ed6ccfac67fdc034a3eb2770c2df40008e29490a"
+    },
+    {
+      "path": "autonomous/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c",
+      "source": "20261116_SR04_Autonomous_Car/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c",
+      "sha256": "b3f85b80eccc5b00f5df119711c5dc8b93f7d297490a951aa600a971d28d6f6e"
+    },
+    {
+      "path": "autonomous/STM32F411RETX_FLASH.ld",
+      "source": "20261116_SR04_Autonomous_Car/STM32F411RETX_FLASH.ld",
+      "sha256": "71b074e7b4e181c732507409600b78a76fcd707bf6c02ce14ba4d082b0eafad4"
+    },
+    {
+      "path": "autonomous/STM32F411RETX_RAM.ld",
+      "source": "20261116_SR04_Autonomous_Car/STM32F411RETX_RAM.ld",
+      "sha256": "6191d7326968d4cca36444ee51ec3b91764fa63f10a257e368d61d12b6e972f3"
+    },
+    {
+      "path": "autonomous-maxspeed/.cproject",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/.cproject",
+      "sha256": "845ff53fd6c3c21458a82c6f16619d038b8828958e7fe0324aa3df690a634713"
+    },
+    {
+      "path": "autonomous-maxspeed/.mxproject",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/.mxproject",
+      "sha256": "72aa76d9a704eb083214f38eee68880e105638e6c0de4022db0184ac23884e21"
+    },
+    {
+      "path": "autonomous-maxspeed/.project",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/.project",
+      "sha256": "9891a566b3230d44f9c3504dcc8198816006a25a3df7871648331d12b7f27664"
+    },
+    {
+      "path": "autonomous-maxspeed/20261116_SR04_Autonomous_MaxSpeed.ioc",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/20261116_SR04_Autonomous_MaxSpeed.ioc",
+      "sha256": "ff612f4ac857df2024946b8113b0975090f2f4e7bf560b4540d8115d3c10c478"
+    },
+    {
+      "path": "autonomous-maxspeed/build.ps1",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/build.ps1",
+      "sha256": "51bb87d95418d12e304fa48ec6e4fafac22f26d4beadb43d363984af327640a1"
+    },
+    {
+      "path": "autonomous-maxspeed/Core/Inc/autonomous.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Core/Inc/autonomous.h",
+      "sha256": "300fec00a7162795d0662a8a380d7dae4bbc196633190f52b8bb3d735250f96e"
+    },
+    {
+      "path": "autonomous-maxspeed/Core/Inc/main.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Core/Inc/main.h",
+      "sha256": "954578911f70bc90af9b2d0e76f445eceba509015641bfe9ee9698f3f3840970"
+    },
+    {
+      "path": "autonomous-maxspeed/Core/Inc/navigation.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Core/Inc/navigation.h",
+      "sha256": "1cc79c1ac0bb22d6e4d324ad04a5dca781ee91d930a056109161ca398f33092e"
+    },
+    {
+      "path": "autonomous-maxspeed/Core/Inc/stm32f4xx_hal_conf.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Core/Inc/stm32f4xx_hal_conf.h",
+      "sha256": "dd1a9f76b34cedf7fece94ebb0d27d975ac3973028b1f2bf0fd6689a48fdae77"
+    },
+    {
+      "path": "autonomous-maxspeed/Core/Inc/stm32f4xx_it.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Core/Inc/stm32f4xx_it.h",
+      "sha256": "68ee033eb9538e8f8b1d2cc7cb74921e8c917ea4313f9cac6b03c1007d47b79d"
+    },
+    {
+      "path": "autonomous-maxspeed/Core/Src/autonomous.c",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Core/Src/autonomous.c",
+      "sha256": "6eb4d35ff3af723ea7b7b36e63e0913bddf9f958b18439d23267692f7a72d688"
+    },
+    {
+      "path": "autonomous-maxspeed/Core/Src/main.c",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Core/Src/main.c",
+      "sha256": "50779490f6c039151e4f03a659f4c9fe0513876e5ef09c2cd817eb228c75863d"
+    },
+    {
+      "path": "autonomous-maxspeed/Core/Src/navigation.c",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Core/Src/navigation.c",
+      "sha256": "9466707cb34e543c5e0fd575bfc7cd7371be4edb0825da80c848e99a80727c66"
+    },
+    {
+      "path": "autonomous-maxspeed/Core/Src/stm32f4xx_hal_msp.c",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Core/Src/stm32f4xx_hal_msp.c",
+      "sha256": "be92b4cba89314ef8761f362e74c4d102adc149ad7c23f0f78bbad15100bb519"
+    },
+    {
+      "path": "autonomous-maxspeed/Core/Src/stm32f4xx_hal_timebase_tim.c",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Core/Src/stm32f4xx_hal_timebase_tim.c",
+      "sha256": "a0838dcec0862ad7fd8617fadf53564aec7023a54add3426fce876f1d8759305"
+    },
+    {
+      "path": "autonomous-maxspeed/Core/Src/stm32f4xx_it.c",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Core/Src/stm32f4xx_it.c",
+      "sha256": "42565f8066287fee827ec05fbdff944cd1af7eab3bc9a28ae41f0d341c7faee5"
+    },
+    {
+      "path": "autonomous-maxspeed/Core/Src/syscalls.c",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Core/Src/syscalls.c",
+      "sha256": "76e29f34f503aab966b6df671b85b985063d940577cb9d5465b36be73b5f840b"
+    },
+    {
+      "path": "autonomous-maxspeed/Core/Src/sysmem.c",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Core/Src/sysmem.c",
+      "sha256": "c6ce6e1fd2110bc3f6fb36364c01e0f3eaf8c7efcbc290c78c9105db9bbb0e5c"
+    },
+    {
+      "path": "autonomous-maxspeed/Core/Src/system_stm32f4xx.c",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Core/Src/system_stm32f4xx.c",
+      "sha256": "077c7d9b06d04e9fe3d60ea68f9e228edf98b2f801f80e5349a3ba1465197b00"
+    },
+    {
+      "path": "autonomous-maxspeed/Core/Startup/startup_stm32f411retx.s",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Core/Startup/startup_stm32f411retx.s",
+      "sha256": "56ddcedb809afac016f60eaa61d025751eed31f3fd8e2252fb7f60cb137349e4"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h",
+      "sha256": "a004ea331bba95df611fbe52bf40cefd75e843f244aa8f9c962e3541f0c5f4f1"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h",
+      "sha256": "fbce462cc1c35dca569d04b95042862ae00590c26286c3aafc8cd4a76fdff6b1"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h",
+      "sha256": "6ba46a957d0c32196d03304b981db5be8c3969d41953a53a364ca861085277d1"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt",
+      "sha256": "d65cad1327eb8dae95d0aeab71fb22505f99a3d7cd1ce2530d7d40c52aece002"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/cachel1_armv7.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/cachel1_armv7.h",
+      "sha256": "6cdb5b324f2fd1bb5b2f47298ba6e6777e735d7cad3bb8d942cd36e2c6e65328"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/cmsis_armcc.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/cmsis_armcc.h",
+      "sha256": "d074534d7106cec83474b3b0a897bd2553e1a8895ecbd54f4f4fb25928066eee"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/cmsis_armclang.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/cmsis_armclang.h",
+      "sha256": "11b39b96ddc1125124762b3423a77b90dd40ea5b4582a3513830245046b24311"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/cmsis_armclang_ltm.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/cmsis_armclang_ltm.h",
+      "sha256": "8621969ea669a1b230ff2125a760ef66d575c48cb45e9e457f768909abcbda46"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/cmsis_compiler.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/cmsis_compiler.h",
+      "sha256": "869640702d811c4c63abb52206715c891a93fd03be954df5ad40d378355af3d6"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/cmsis_gcc.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/cmsis_gcc.h",
+      "sha256": "3d4e265d0aa42f888385ccf073666e6ebb5ec9f834760b9da27c474e177f708d"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/cmsis_iccarm.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/cmsis_iccarm.h",
+      "sha256": "f28119adbc81fb0e3c957c9aebe8fb423ad93634e76ead3caa2b0818d2e123ae"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/cmsis_version.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/cmsis_version.h",
+      "sha256": "8cda7ac3ff6f0eb5e83c4fe613dd195151b24da54167f5c3c007e599a03f1edc"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/core_armv81mml.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/core_armv81mml.h",
+      "sha256": "255663bc446feb00e341d682f7f78ec6f301a5c1802d856bcdd18d7552393dff"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/core_armv8mbl.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/core_armv8mbl.h",
+      "sha256": "b5a662723f65a9fe1fbde82b83681daec28aadb78c2dc95e531d6fb6bb396dde"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/core_armv8mml.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/core_armv8mml.h",
+      "sha256": "17021c385f47945f2376fbb30f2f2e3fc28bd0f3d97eb857d212c192c54ab3fc"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/core_cm0.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/core_cm0.h",
+      "sha256": "5cc53e723ee0e97455233f8dee892940209e2fff66071d66d74bab56c528b199"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/core_cm0plus.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/core_cm0plus.h",
+      "sha256": "a19e24c136145b4c72630d0ab7c83a7aef010f3ba165e34c56a05057a2d9fed5"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/core_cm1.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/core_cm1.h",
+      "sha256": "c243c4afb291068fe7078d2911b2f0001e78a4d5466c26728611b06147d65c2b"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/core_cm23.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/core_cm23.h",
+      "sha256": "b6fb9bb5faedffe8eec563550e21dc9097c9f64956258b2af51e6d4d88ca4411"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/core_cm3.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/core_cm3.h",
+      "sha256": "0fb7749ea828cad4fded65bbeefc3fd0cff1effbb7c784f7086526fd69e26719"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/core_cm33.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/core_cm33.h",
+      "sha256": "d5c5fc559cbbbc1e495af4ac2ea81959bcadb35aa69ecb1c20d183c3ed9cfeae"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/core_cm35p.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/core_cm35p.h",
+      "sha256": "e52a069ffdacdbf000ffcc6f1766f0dcdfef1bb60f5e8ca0602bcbcfd2b69fa1"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/core_cm4.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/core_cm4.h",
+      "sha256": "d59a9e3ed4cf43a3c74a2e48f344d41be2b6363ef9394ea2c551052fe553a6af"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/core_cm55.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/core_cm55.h",
+      "sha256": "bf661f2b792ad123795207bafd405d6b250690c65a28232a92485d6fdbb76d98"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/core_cm7.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/core_cm7.h",
+      "sha256": "a361f5ff7b053831cdbbc068eae9609cd6681414c9a95c26df582d686a2378b8"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/core_cm85.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/core_cm85.h",
+      "sha256": "062019526b524285bee161459f65ce7c9bf827c2ceabc4101fd150f6d80b37f5"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/core_sc000.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/core_sc000.h",
+      "sha256": "4ec2d6ff893658c6bb7b1c56e6256087f3a2ed1e662c226e4ba11cfaad28d05d"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/core_sc300.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/core_sc300.h",
+      "sha256": "4ca0e6f1fec869e4942c70028ce2f3c9ae00a65a69c35f467840af3fc3d03ae5"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/core_starmc1.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/core_starmc1.h",
+      "sha256": "47978dc5bfb51c5edd09178d99c9b9163d500d48181985da4ead5a3c20d9a85b"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/mpu_armv7.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/mpu_armv7.h",
+      "sha256": "de1b5eb9ed566527b66dc06f4ecb6a43ab6800f7dac47e87c9cb42984dca41bb"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/mpu_armv8.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/mpu_armv8.h",
+      "sha256": "467a5ce9d65d9b37fc32e01001ed184500d56576f303713d27b76e68dd67911c"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/pac_armv81.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/pac_armv81.h",
+      "sha256": "f3497af055e95873809e4a79420e2b08915582466cef2eb4235d8e03faa7c3ab"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/pmu_armv8.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/pmu_armv8.h",
+      "sha256": "ef9aa2f1c5b03bea488d4b74d33db14acdc6c87e500273d68d75a6d3902a4f62"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/Include/tz_context.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/Include/tz_context.h",
+      "sha256": "7fcc21fc190f6fd970390e9caaa6a86d72fd10f9edf4efab36f12aecf1a8baa0"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/CMSIS/LICENSE.txt",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/CMSIS/LICENSE.txt",
+      "sha256": "e03ba41d7fab20700769fe4118bab50d800cb74f990353a05d2f5fff1c228363"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h",
+      "sha256": "c006468890df1e5fd6ab9f378af2f5648607164a80a2851a832e1a098e5cfdff"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h",
+      "sha256": "78f46c52267d3bb7a68349fbf02ecd9f6e2e375e3feb80ac0829a870bddcd514"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h",
+      "sha256": "9a63853adf125773901e75451eac8431680a4a31f9e0bf53f1f2b6a878215255"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h",
+      "sha256": "c6f30eaa09b8a72e7f503c757f312745ec10c317d37d568500dccab9587c1a6b"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h",
+      "sha256": "4dc4d29c8930a5ec06b6f4b13480bed13c238d2674b3afac47e6f71b2ae25b98"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h",
+      "sha256": "8aa0a347b502d924077675ad9bb446cf40b3a6dab47cf8a6b5a9f9e21dbfcf20"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h",
+      "sha256": "e786fc8c276267ec0650ab0fc5853b2ca63697131947321a4e7e7175554c3b04"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h",
+      "sha256": "b0d68b1b3ef9172687986cbaab80e0bad907e08993ef1766eb5599035131a173"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h",
+      "sha256": "2b6e01cf00f37574d95f15e25496b814d85b88796f58a47f9f2bef260b6c4fde"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h",
+      "sha256": "b37ac28b36e597feca914f63e8046967c092d6b372e1a70ca9ab9fbf37a3bae5"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h",
+      "sha256": "5829d91f2e060d30f5798dc71e4fef5d7ffa7d99da21e751ee03d527d664307f"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h",
+      "sha256": "5963c4ea366cfd6de3a91792a382de6327d86542a6278592cc2b79e594c8ad91"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h",
+      "sha256": "2a8a5905165b97971b44b5f0768e55ed30f28659d0bdf40dfc3e0eb9b1a34e1e"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h",
+      "sha256": "3f0cac843abd6c0ae3ef9a4edc6353b6f96052f8d297bf8a474f23bdd9a1576b"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h",
+      "sha256": "5d271e215214b0d83307e4ca3c85a90c3b36d101cd75e26b6f4b3b98a37c59ee"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h",
+      "sha256": "35780221cccec55b0954cd47725c415304eec98a80626589ef15737e650684a9"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h",
+      "sha256": "97477ceb9c7477137b2cd629bcdf3e76f020b4d068b4bda918eb209c776f5311"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h",
+      "sha256": "caba7038fd35f65d7369e2e2262ccad59b59e7f66729a322966e2824fca902b9"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h",
+      "sha256": "dd633fe4127649dd610dd9d9841599ed554a145fdde20ae4ea085cfd5210c9e5"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h",
+      "sha256": "b7c6d00b91d1df94ee68104735ad09e1e19c5dc5d526f1b74025c831353a9815"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h",
+      "sha256": "94f66c2401fc2753a1832fb1dd96f2cfa7ba665879ba4d6b85de5cf8e444a6a3"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h",
+      "sha256": "96329e1fc07ea1d7db3a7970af4d97a5172e29cf9be5e7a45b7a011c960a33b9"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h",
+      "sha256": "b874a353f6075b18a7b352f8eac77497c32eff162ec0005be4c75346fdff3908"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h",
+      "sha256": "187dec9842b95cf7f2a448bbb7a2c1b98ac8c8d0ea69d68cbcd5b05c4eaeb6b9"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h",
+      "sha256": "e7f35b31956cc376aacf5406aceefd897ae8bc9fc9bbf164411ed30627d2c0ef"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h",
+      "sha256": "fef5ea5a5bfb7f2c4059fb2c1262d884f0f25b379a3a982ddefd81c50ed5cd89"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h",
+      "sha256": "ecd43402eb66a91d63734ee50f7eed67ebafd2b354a3069df0e6a171b90f41cd"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h",
+      "sha256": "650207da540d4d262d0a82c23b0d970c8a83bb1f36a4b2fd65388331475154df"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt",
+      "sha256": "bdc7b0f98db4846279336431024c49a01d578a2ea1d19ec68797bbe33e718d2d"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+      "sha256": "1456812822a1bf149e34f0aeb349cf22effd67b1d848129f53b89474ccf8bb9c"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+      "sha256": "18363923c4447c984ddda1ae1d6b3b7cf3ae4ded19933a561874dda3c69e56bc"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+      "sha256": "f3da7dc31942b79a88349c7f7dd38f6b586656b47c6fc78c8283925176368763"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
+      "sha256": "000253cec2e4c9e0678add30a7b01f854b27f4271cd3124f43023b993eec54ea"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
+      "sha256": "1150dcd5b4ef4dd5c7c99af54272b7baf1e89054accf6887ef7526d400c24056"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+      "sha256": "6803e334866857361fbab3a1ad6746f4ad6172fb6e325fcb2bd44cbcae67cff2"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
+      "sha256": "942c5264ade5416b321f5ac78dc8d93656e2fdfb048bee12710aa94a4fc4f06e"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
+      "sha256": "d4fbfc99a7f5298bd59080c6a5847169850ac7af3125986b1a9bcf6f058d1c55"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+      "sha256": "72d8f3cb23a396cdbf9183c5cea2a0c00cfa0336def3736652480c4491f38788"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+      "sha256": "89ea9ba1d4d0d40b21a7094935bfb8ce2a9b90df4d742f5d04a51e1d7bbc8d68"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+      "sha256": "fc8a26ad3a0f8359817c1b08c68af50b9f7905a69c44e4599225eaa53a66e856"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+      "sha256": "13811ad463cc7f065e39a98a2c3af00f878f2de6535407fff1b5a97fd569525c"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+      "sha256": "51c15df04a3bf41d372c6f1988e6298af7990c473ffa0396820168fc6a19d949"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c",
+      "sha256": "5d9f7c06f7a06ac797cde196ed6ccfac67fdc034a3eb2770c2df40008e29490a"
+    },
+    {
+      "path": "autonomous-maxspeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c",
+      "sha256": "b3f85b80eccc5b00f5df119711c5dc8b93f7d297490a951aa600a971d28d6f6e"
+    },
+    {
+      "path": "autonomous-maxspeed/README.md",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/README.md",
+      "sha256": "d0cb67e745005c2b6b6face9333d623de97881ddecdf43372859a39a49ed3591"
+    },
+    {
+      "path": "autonomous-maxspeed/STM32F411RETX_FLASH.ld",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/STM32F411RETX_FLASH.ld",
+      "sha256": "71b074e7b4e181c732507409600b78a76fcd707bf6c02ce14ba4d082b0eafad4"
+    },
+    {
+      "path": "autonomous-maxspeed/STM32F411RETX_RAM.ld",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/STM32F411RETX_RAM.ld",
+      "sha256": "6191d7326968d4cca36444ee51ec3b91764fa63f10a257e368d61d12b6e972f3"
+    },
+    {
+      "path": "autonomous-maxspeed/tests/firmware_test.c",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/tests/firmware_test.c",
+      "sha256": "721425390448ce89380958700643b1f9136f58ab3e243ec41bb87ebfa94b8976"
+    },
+    {
+      "path": "autonomous-maxspeed/tests/run_tests.py",
+      "source": "20261116_SR04_Autonomous_MaxSpeed/tests/run_tests.py",
+      "sha256": "d192e84459302ec863d6c089df05fc43d504b14f3b7a816c1fab3758c6900f95"
+    }
+  ]
+}
